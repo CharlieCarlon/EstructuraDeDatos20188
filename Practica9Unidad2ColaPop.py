@@ -28,8 +28,8 @@ def pop():#Metodo pop revisa si la cola esta vacia para retornarla al menu si no
         print("\nEliminando valor " + str(cola[0]))
         for i in range(0,len(cola)-1):
             cola[i] = cola[i+1]
-        cola[index]=0
         index=index-1#Se le pregunta el usuario si quiere eliminar otro elemento
+        cola[index]=0
         r=input("\nDesea eliminar otro dato?[S/N] ")
         if (r=='S'):
              pop()
