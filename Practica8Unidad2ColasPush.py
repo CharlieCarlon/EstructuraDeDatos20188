@@ -11,7 +11,7 @@ def push(index,cola,c):#Creamos el metodo push el cual recibe los parametros de 
     elif (cola[0]==0):
         print("La cola esta vacia puedes ingresar valores")
     dato=(int(input("Ingrese el dato a capturar en la cola:")))
-    cola.insert(index,dato)
+    cola[index]=dato
     index=index+1
     r=input("\nDesea agregar otro dato?[S/N] ")
     if (r=='S'):
