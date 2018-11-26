@@ -89,7 +89,7 @@ class Nodo(object):#"""Se crea la clase nodo y se inicia el metodo constructor""
         global Raiz#la variable search se guarde el dato que contenia y  por medio de esta buscar, en el while es un contador el cual contara el nodo en el que esta
         encontrado = False#despues de encontrarlo va a imprimir el dato y la posicion la variable p no afecta ya que no se declaro como global y el valor en el que quede
         search=nodos.dato#no afectara en otros metodos
-        c=1
+        c=0
         p=Raiz
         while(p.next != None):
             c=c+1
