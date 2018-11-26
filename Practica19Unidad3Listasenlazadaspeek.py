@@ -91,10 +91,12 @@ class Nodo(object):#"""Se crea la clase nodo y se inicia el metodo constructor""
         search=nodos.dato#no afectara en otros metodos
         c=0
         p=Raiz
-        while(p.next != None):
+        while(p!= None):
             c=c+1
             if(p.dato==search):
                 encontrado = True
+                break
+            if(p==None):
                 break
             p = p.next
         if encontrado:
