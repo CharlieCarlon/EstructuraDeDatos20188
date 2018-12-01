@@ -12,7 +12,7 @@ def busqueda():#metodo busqueda menu
                 if found:
                     print("Dato "+ str(valor)+" esta en la posicion "+ str(c+1))
                 else:
-                    print("El Dato "+ str(valor)+" no se encuentra en la cola")
+                    print("El Dato "+ str(valor)+" no se encuentra en el arreglo")
                 opc=input("Desea buscar otro valor?[S/N] ") #aqui se revalida la condicion del while inicial si la respuesta es S continua, si no el booleano cambia afalse y
                 if opc=='S':        #sale del ciclo al salir imprime el msg de adios
                     rep=True
